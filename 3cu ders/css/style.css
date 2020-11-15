@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;'
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+li{
+    list-style: none;
+}
+a{text-decoration: none;
+}
+.navigation-menu{
+    width: 80%;
+    margin: auto;
+    padding: 10px 0;
+}
+header .navigation-menu .nav-logo{
+    float: left;
+}
+header .navigation-menu .nav-logo a{
+    text-transform: capitalize;
+    font-style: italic;
+    color: slategrey;
+    font-size: 20px;
+
+}
+
+header .navigation-menu .menu{
+    float: right
+}
+
+header .navigation-menu .menu ul li{
+    float: left;
+    padding: 0 10px;
+}
+header .navigation-menu .menu ul li a{
+    text-transform: capitalize;
+    color: rgba(255,255,255,0.7)
+    font-size: 18px;
+}
+header{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.head-text{
+    text-align: center;
+    color: white;
+    padding-top: 15em;
+}
+.head-text h1{
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+.head-text hr{
+    width: 60px;
+    margin: auto;
+    height: 3px;
+    border: none;
+    background-color: #f4623a;
+}
+.head-text p{
+    font-size: 18px;
+    color: rgba(255,255,255,0.75);
+    margin: 20px auto 45px;
+    width: 40em;
+}
+
+.head-text a{
+    padding: 20px 36px;
+    background-color: #f4623a;
+    border-radius: 35px;
+    color: white;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.head-text a:hover{
+    background-color: #F24516;
+}
+
+.icon-section{
+    padding: 120px 0;
+    width: 80%;
+    margin: auto;
+}
+.icon-head{
+    margin-bottom: 25px;
+}
+.icon-item{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.icon-item{
+    color: #F24516;
+    font-size: 20px;
+}
+.img-section img{
+    float: left;
+    width: 33.33%;
+}
